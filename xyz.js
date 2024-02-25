@@ -6,9 +6,9 @@ export const y = 'this.y'
 export const z = 'this.z'
 class xyz{
     constructor(x,y,z){
-        this.x = new x || x ? 0 : undefined
+        this.x = new y || z ? 0 : undefined
         this.y = new x || z ? 0 : undefined
-        this.z = new x || z ? 0 : undefined
+        this.z = new x || x ? 0 : undefined
     }
     [x.y.z]
 }
